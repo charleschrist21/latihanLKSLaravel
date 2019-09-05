@@ -1,0 +1,353 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	background-color: blue;
+}
+
+/* S I D E B A R */
+.logout-btn{
+	position: absolute;
+}
+.sidebar{
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	background-color: white;
+}
+.sidebar-user{
+	position: relative;
+	width: 232px;
+	height: 68px;
+	/*border: 1px solid black;*/
+	margin-top: 36px;
+	margin-left: 16px;
+}
+.sidebar-tanggal{
+	position: relative;
+	width: 232px;
+	height: 116px;
+	/*border: 1px solid black;*/
+	margin-top: 16px;
+	margin-left: 16px;
+}
+.sidebar-menu{
+	position: relative;
+	width: 232px;
+	height: 180px;
+	/*border: 1px solid black;*/
+	margin-top: 16px;
+	margin-left: 16px;
+}
+.sidebar-logout{
+	position: relative;
+	width: 232px;
+	height: 48px;
+	/*border: 1px solid black;*/
+	margin-top: 108px;
+	margin-left: 16px;
+}
+
+/* sidebar user */
+.image-sidebar{
+	position: absolute;
+	border-radius: 100%;
+	/*background-color: blue;*/
+	height: 50px;
+	width: 50px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+.name-sidebar{
+	position: absolute;
+	font-weight: bold;
+	margin-left: 76px;
+	margin-top: 12px;
+	font-size: 16px;
+}
+.admin-sidebar{
+	position: absolute;
+	border: 1px solid aqua;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 9px;
+	border-radius: 5px;
+	color: aqua;
+	margin-left: 76px;
+	margin-top: 40px;
+}
+
+/* sidebar tanggal */
+.sidebar-hari{
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 8px;
+}
+.sidebar-bulan{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 16px;
+	font-size: 48px;
+	font-weight: lighter;
+}
+.sidebar-tahun{
+	position: absolute;
+	margin-top: 88px;
+	margin-left: 8px;
+}
+
+/* sidebar menu */
+.sidebar-menu-judul{
+	position: absolute;
+	font-size: 32px;
+	color: gray;
+	font-weight: bold;
+	margin-top: 16px;
+	margin-left: 16px;
+}
+.sidebar-button{
+	position: absolute;
+	text-decoration: none;
+	margin-top: 68px;
+	margin-left: 48px;
+	font-weight: bold;
+	font-size: 20px; 
+	color: gray;
+}
+.sidebar-button-2{
+	position: absolute;
+	text-decoration: none;
+	margin-top: 84px;
+	margin-left: 48px;
+	font-weight: bold;
+	font-size: 20px; 
+	color: gray;
+}
+.sidebar-menu a{
+	width: 208px;
+}
+.sidebar-menu a:hover{
+	text-decoration: none;
+	color: aqua;
+	border-bottom: 2px solid aqua;
+
+}
+
+
+.content{
+	margin-top: 20px;
+	position: absolute;
+	margin-left: 22%;
+}
+
+
+
+/* admin */
+.allpost-admin{
+	width: 1010px;
+	height: 400px;
+	background-color: white;
+	border-radius: 20px;
+}
+.allpost-text{
+	position: absolute;
+	margin-top: 32px;
+	margin-left: 32px;
+	font-weight: bold;
+}
+.icon-allpost{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border: 2px solid gray;
+	border-radius: 2px;
+	transform: rotate(45deg);
+	margin-top: 64px;
+	margin-left: 36px;
+}
+.allpost-total{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 56px;
+	font-size: 11px;
+	font-weight: bold;
+	color: gray;
+}
+.form-search{
+	position: absolute;
+	margin-left:700px;
+	margin-top: 48px;
+}
+.form-control{
+	width: 150px;
+	height: 30px;
+}
+
+/* Table */
+.table{
+	width: 1000px;
+    height: 209px;
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 108px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.allpost-table thead{
+    background-color: #ffffff;
+    filter: drop-shadow(0px 10px 4px rgb(170, 170, 170))
+}
+.allpost-table thead tr{
+    display: block;
+}
+.allpost-table thead tr th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.allpost-table tbody{
+  display:inline-block;
+  width: 940px;
+  overflow: auto;
+  height: 190px;
+  font-size: 16px;
+  background-color: white;
+}
+.t-judul{
+	padding-left: 100px;
+	width: 150px;
+    position: relative;
+}
+.t-fullName{
+	padding-left: 70px!important;
+	width: 70px!important;
+    position: relative;
+    /*border-right: 1px solid black;*/
+}
+.t-username{
+	width: 130px!important;
+    position: relative;
+    padding-left: 80px!important;
+    /*border-right: 1px solid black*/
+}
+.t-email{
+	width: 130px!important;
+    position: relative;
+    padding-left: 60px!important;
+    /*border-right: 1px solid black*/
+}
+.t-addBy{
+	width: 130px!important;
+    position: relative;
+    /*padding-left: 0px!important;*/
+    /*border-right: 1px solid black*/
+}
+.t-action{
+	width: 150px;
+	position: relative;
+}
+.btn-action{
+	width: 50px;
+	height: 20px;
+	font-size: 9px;
+	align-items: center;
+	align-content: center;
+	padding: 0;
+	padding-top: 2px;
+}
+.t-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+
+/* add form */
+.add-form{
+	width: 490px;
+	height: 300px;
+	background-color: white;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.add-form-judul{
+	position: absolute;
+	margin-top: 24px;
+	margin-left: 32px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.form-control{
+	width: 200px;
+	height: 20px;
+}
+.form-group{
+	position: relative;
+	top: 68px;
+	left: 32px;
+	font-size: 11px;
+}
+.form-side-right{
+	z-index: 2;
+	position: absolute;
+	margin-left: 220px;
+}
+.form-side-right-post{
+	z-index: 2;
+	margin-top: -30px;
+	position: absolute;
+	margin-left: 220px;
+}
+.btn-submit{
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	align-content: center;
+	align-items: center;
+	padding: 0;
+	margin-top: 68px;
+	margin-left: 32px;
+	font-size: 9px;
+}
+
+/* edit form */
+.edit-form{
+	margin-left: 520px;
+	margin-top: -350px;
+	width: 490px;
+	height: 300px;
+	background-color: white;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+.btn-edit{
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	align-content: center;
+	align-items: center;
+	padding: 0;
+	margin-top: 32px;
+	margin-left: 255px;
+	font-size: 9px;
+}
+.btn-edit-post{
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	align-content: center;
+	align-items: center;
+	padding: 0;
+	margin-top: 48px;
+	margin-left: 255px;
+	font-size: 9px;
+}
+
+/* login */
+.login{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+
